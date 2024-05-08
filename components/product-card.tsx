@@ -1,5 +1,4 @@
-import { getInventory } from "@/utils/get-inventory";
-import { getProductImages } from "@/utils/get-product-images";
+import useInventory from "@/hooks/useInventory";
 import { Product } from "@/utils/types";
 import { twMerge } from "tailwind-merge";
 
@@ -7,19 +6,18 @@ interface ProductProps {
   product: Product;
 }
 
-const ProductCard = async ({ product }: ProductProps) => {
-  const { inventory } = await getInventory(product.product_id);
-  const { images } = await getProductImages(product.product_id);
+const ProductCard = ({ product }: ProductProps) => {
+  const { data } = useInventory(product.product_id);
 
-  const colors = Array.from(new Set(images.map((item) => item.color)));
+  //   const colors = Array.from(new Set(images.map((item) => item.color)));
 
-  const hasDiscount =
-    inventory.discount_percentage || inventory.discount ? true : false;
+  //   const hasDiscount =
+  //     inventory.discount_percentage || inventory.discount ? true : false;
 
   return (
     <article className="w-full max-w-80 ">
       <div className="w-full h-[280px] bg-slate-600 rounded-lg"></div>
-      <div className="py-4">
+      {/* <div className="py-4">
         <p className="text-xs capitalize font-medium text-gray-600">black</p>
         <h4 className="text-base font-medium line-clamp-2">{product.name}</h4>
         <div className="flex  gap-2 items-center py-3 text-gray-500 font-medium text-base">
@@ -40,7 +38,7 @@ const ProductCard = async ({ product }: ProductProps) => {
             ></button>
           ))}
         </div>
-      </div>
+      </div> */}
     </article>
   );
 };
