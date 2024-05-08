@@ -1,4 +1,5 @@
 import { getInventory } from "@/utils/get-inventory";
+import { getProductImages } from "@/utils/get-product-images";
 import { Product } from "@/utils/types";
 
 interface ProductProps {
@@ -7,6 +8,9 @@ interface ProductProps {
 
 const ProductCard = async ({ product }: ProductProps) => {
   const inventory = await getInventory(product.product_id);
+  const { images } = await getProductImages(product.product_id);
+
+  const colors = Array.from(new Set(images.map((item) => item.color)));
 
   return (
     <article className="w-full max-w-80 ">
@@ -18,8 +22,15 @@ const ProductCard = async ({ product }: ProductProps) => {
           <div className="py-3 text-gray-500 font-medium text-base">$15</div>
         </div>
         <div className="flex items-center flex-wrap gap-1">
-          <button className="rounded-full bg-slate-500 border border-gray-400 size-4"></button>
-          <button className="rounded-full bg-white border border-gray-400 size-4"></button>
+          {colors.map((color) => (
+            <button
+              style={{
+                backgroundColor: `${color}`,
+              }}
+              key={color}
+              className={`rounded-full border border-gray-400 size-4`}
+            ></button>
+          ))}
         </div>
       </div>
     </article>

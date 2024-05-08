@@ -19,3 +19,9 @@ export type Inventory = {
   sold: number;
   stock: number;
 };
+
+export type Image = {
+  product_id: string;
+  color: string;
+  image_url: string;
+};
