@@ -48,7 +48,7 @@ const ProductCard = ({ product }: ProductProps) => {
         <NextImage
           width={320}
           height={280}
-          alt={product.name + "" + currentColor}
+          alt={product.name + " - " + currentColor}
           src={image!}
           className="w-full h-[280px] object-cover rounded-lg"
         ></NextImage>
