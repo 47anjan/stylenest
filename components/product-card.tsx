@@ -8,16 +8,19 @@ interface ProductProps {
 
 const ProductCard = ({ product }: ProductProps) => {
   const { data } = useInventory(product.product_id);
+  const inventory = data?.inventory;
+
+  if (!inventory) return null;
 
   //   const colors = Array.from(new Set(images.map((item) => item.color)));
 
-  //   const hasDiscount =
-  //     inventory.discount_percentage || inventory.discount ? true : false;
+  const hasDiscount =
+    inventory.discount_percentage || inventory.discount ? true : false;
 
   return (
     <article className="w-full max-w-80 ">
       <div className="w-full h-[280px] bg-slate-600 rounded-lg"></div>
-      {/* <div className="py-4">
+      <div className="py-4">
         <p className="text-xs capitalize font-medium text-gray-600">black</p>
         <h4 className="text-base font-medium line-clamp-2">{product.name}</h4>
         <div className="flex  gap-2 items-center py-3 text-gray-500 font-medium text-base">
@@ -27,7 +30,7 @@ const ProductCard = ({ product }: ProductProps) => {
             ${inventory.list_price}
           </div>
         </div>
-        <div className="flex items-center flex-wrap gap-1">
+        {/* <div className="flex items-center flex-wrap gap-1">
           {colors.map((color) => (
             <button
               style={{
@@ -37,8 +40,8 @@ const ProductCard = ({ product }: ProductProps) => {
               className={`rounded-full border border-gray-400 size-4`}
             ></button>
           ))}
-        </div>
-      </div> */}
+        </div> */}
+      </div>
     </article>
   );
 };

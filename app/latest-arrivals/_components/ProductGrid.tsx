@@ -5,8 +5,6 @@ import useProducts from "@/hooks/useProducts";
 const ProductGrid = () => {
   const { data } = useProducts();
 
-  console.log();
-
   return (
     <section className="grid gap-8 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       {data?.products.map((product) => (
