@@ -3,7 +3,7 @@ import Container from "@/components/container";
 const LoadingPage = () => {
   return (
     <Container>
-      <header className="flex items-center justify-between mt-20 mb-5">
+      <header className="flex items-center justify-between mt-10 lg:mt-20 mb-5">
         <h2 className="text-2xl font-bold">Latest Arrivals</h2>
         <div className="px-4 py-2 text-sm font-medium border rounded">
           View All
