@@ -1,5 +1,6 @@
 import Container from "@/components/container";
 import Link from "next/link";
+import ProductGrid from "./_components/ProductGrid";
 
 const LatestArrivalsPage = () => {
   return (
@@ -13,7 +14,8 @@ const LatestArrivalsPage = () => {
           View All
         </Link>
       </header>
-      <section>sds</section>
+
+      <ProductGrid />
     </Container>
   );
 };

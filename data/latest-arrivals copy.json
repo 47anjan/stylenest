@@ -1,0 +1,964 @@
+{
+  "data": [
+    {
+      "product_id": "urban-drift-bucket-hat",
+      "name": "Urban Drift Bucket Hat",
+      "description": "Navigate the urban jungle with our Urban Drift Bucket Hat. It's not only trendy but also practical, offering shade from the hustle and bustle.",
+      "category": {
+        "category_id": "unisex",
+        "name": "Unisex",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "urban",
+        "name": "Urban Oasis",
+        "description": "For the city dwellers",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/urban-oasis.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-04-04",
+      "colors": ["black", "white"],
+      "images": [
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-1.jpg"
+        },
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-2.jpg"
+        },
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-3.jpg"
+        },
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-4.jpg"
+        },
+        {
+          "color": "white",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-5.jpg"
+        },
+        {
+          "color": "white",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-6.jpg"
+        },
+        {
+          "color": "white",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/urban-drift-bucket-hat/urban-drift-bucket-hat-7.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "udbh-black",
+          "color": "black",
+          "size": null,
+          "list_price": 15,
+          "discount": null,
+          "discount_percentage": null,
+          "sale_price": 15,
+          "sold": 65,
+          "stock": 435
+        },
+        {
+          "sku": "udbh-white",
+          "color": "white",
+          "size": null,
+          "list_price": 15,
+          "discount": null,
+          "discount_percentage": null,
+          "sale_price": 15,
+          "sold": 65,
+          "stock": 435
+        }
+      ],
+      "priceRange": {
+        "highest": 15,
+        "lowest": 15
+      },
+      "rating": 4.29,
+      "reviews": 7,
+      "sizes": [],
+      "sold": 130
+    },
+    {
+      "product_id": "tangerine-mini-tote",
+      "name": "Tangerine Mini Tote",
+      "description": "Carry a pop of color with our Tangerine Mini Tote. Compact and vibrant, it's the perfect accessory for the fashion-forward minimalist.",
+      "category": {
+        "category_id": "women",
+        "name": "Women",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "fresh",
+        "name": "Fresh Fusion",
+        "description": "Contemporary styles and patterns",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/fresh-fusion.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-04-03",
+      "colors": ["orange"],
+      "images": [
+        {
+          "color": "orange",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/tangerine-mini-tote/tangerine-mini-tote-1.jpg"
+        },
+        {
+          "color": "orange",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/tangerine-mini-tote/tangerine-mini-tote-2.jpg"
+        },
+        {
+          "color": "orange",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/tangerine-mini-tote/tangerine-mini-tote-3.jpg"
+        },
+        {
+          "color": "orange",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/tangerine-mini-tote/tangerine-mini-tote-4.jpg"
+        },
+        {
+          "color": "orange",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/tangerine-mini-tote/tangerine-mini-tote-5.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "tmt-orange",
+          "color": "orange",
+          "size": null,
+          "list_price": 150,
+          "discount": null,
+          "discount_percentage": null,
+          "sale_price": 150,
+          "sold": 65,
+          "stock": 435
+        }
+      ],
+      "priceRange": {
+        "highest": 150,
+        "lowest": 150
+      },
+      "rating": 4.5,
+      "reviews": 4,
+      "sizes": [],
+      "sold": 65
+    },
+    {
+      "product_id": "elemental-sneakers",
+      "name": "Elemental Sneakers",
+      "description": "Ground your steps in style with our Elemental Sneakers. Designed with the elements in mind, they bring a natural balance to your stride and your ensemble.",
+      "category": {
+        "category_id": "unisex",
+        "name": "Unisex",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "fresh",
+        "name": "Fresh Fusion",
+        "description": "Contemporary styles and patterns",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/fresh-fusion.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-03-25",
+      "colors": ["beige"],
+      "images": [
+        {
+          "color": "beige",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/elemental-sneakers/elemental-sneakers-1.jpg"
+        },
+        {
+          "color": "beige",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/elemental-sneakers/elemental-sneakers-2.jpg"
+        },
+        {
+          "color": "beige",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/elemental-sneakers/elemental-sneakers-3.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "es-beige-4",
+          "color": "beige",
+          "size": 4,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 100,
+          "stock": 400
+        },
+        {
+          "sku": "es-beige-4.5",
+          "color": "beige",
+          "size": 4.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 90,
+          "stock": 410
+        },
+        {
+          "sku": "es-beige-5",
+          "color": "beige",
+          "size": 5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 80,
+          "stock": 420
+        },
+        {
+          "sku": "es-beige-5.5",
+          "color": "beige",
+          "size": 5.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 70,
+          "stock": 430
+        },
+        {
+          "sku": "es-beige-6",
+          "color": "beige",
+          "size": 6,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 60,
+          "stock": 440
+        },
+        {
+          "sku": "es-beige-6.5",
+          "color": "beige",
+          "size": 6.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 50,
+          "stock": 450
+        },
+        {
+          "sku": "es-beige-7",
+          "color": "beige",
+          "size": 7,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 40,
+          "stock": 460
+        },
+        {
+          "sku": "es-beige-7.5",
+          "color": "beige",
+          "size": 7.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 30,
+          "stock": 470
+        },
+        {
+          "sku": "es-beige-8",
+          "color": "beige",
+          "size": 8,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 20,
+          "stock": 480
+        },
+        {
+          "sku": "es-beige-8.5",
+          "color": "beige",
+          "size": 8.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 10,
+          "stock": 490
+        },
+        {
+          "sku": "es-beige-9",
+          "color": "beige",
+          "size": 9,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 5,
+          "stock": 495
+        },
+        {
+          "sku": "es-beige-9.5",
+          "color": "beige",
+          "size": 9.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 2,
+          "stock": 498
+        },
+        {
+          "sku": "es-beige-10",
+          "color": "beige",
+          "size": 10,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 1,
+          "stock": 499
+        },
+        {
+          "sku": "es-beige-10.5",
+          "color": "beige",
+          "size": 10.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 0,
+          "stock": 500
+        },
+        {
+          "sku": "es-beige-11",
+          "color": "beige",
+          "size": 11,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 0,
+          "stock": 500
+        },
+        {
+          "sku": "es-beige-11.5",
+          "color": "beige",
+          "size": 11.5,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 0,
+          "stock": 500
+        },
+        {
+          "sku": "es-beige-12",
+          "color": "beige",
+          "size": 12,
+          "list_price": 100,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 80,
+          "sold": 0,
+          "stock": 500
+        }
+      ],
+      "priceRange": {
+        "highest": 80,
+        "lowest": 80
+      },
+      "rating": 3.86,
+      "reviews": 7,
+      "sizes": [
+        4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+      ],
+      "sold": 558
+    },
+    {
+      "product_id": "metro-hoodie",
+      "name": "Metro Hoodie",
+      "description": "The Metro Hoodie is your ticket to comfortable, laid-back fashion. Whether you're on the move or taking it easy, this hoodie has got you covered.",
+      "category": {
+        "category_id": "unisex",
+        "name": "Unisex",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "urban",
+        "name": "Urban Oasis",
+        "description": "For the city dwellers",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/urban-oasis.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-03-23",
+      "colors": ["black"],
+      "images": [
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/metro-hoodie/metro-hoodie-1.jpg"
+        },
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/metro-hoodie/metro-hoodie-2.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "mh-black-xs",
+          "color": "black",
+          "size": "xs",
+          "list_price": 90,
+          "discount": null,
+          "discount_percentage": 10,
+          "sale_price": 81,
+          "sold": 100,
+          "stock": 300
+        },
+        {
+          "sku": "mh-black-sm",
+          "color": "black",
+          "size": "sm",
+          "list_price": 90,
+          "discount": null,
+          "discount_percentage": 10,
+          "sale_price": 81,
+          "sold": 95,
+          "stock": 305
+        },
+        {
+          "sku": "mh-black-md",
+          "color": "black",
+          "size": "md",
+          "list_price": 90,
+          "discount": null,
+          "discount_percentage": 10,
+          "sale_price": 81,
+          "sold": 90,
+          "stock": 310
+        },
+        {
+          "sku": "mh-black-lg",
+          "color": "black",
+          "size": "lg",
+          "list_price": 90,
+          "discount": null,
+          "discount_percentage": 10,
+          "sale_price": 81,
+          "sold": 85,
+          "stock": 315
+        },
+        {
+          "sku": "mh-black-xl",
+          "color": "black",
+          "size": "xl",
+          "list_price": 90,
+          "discount": null,
+          "discount_percentage": 10,
+          "sale_price": 81,
+          "sold": 80,
+          "stock": 320
+        }
+      ],
+      "priceRange": {
+        "highest": 81,
+        "lowest": 81
+      },
+      "rating": 4.5,
+      "reviews": 4,
+      "sizes": ["xs", "sm", "md", "lg", "xl"],
+      "sold": 450
+    },
+    {
+      "product_id": "sunbeam-mules",
+      "name": "Sunbeam Mules",
+      "description": "Let your feet bask in the glow of our Sunbeam Mules. With their radiant style and effortless slip-on design, they're sunshine for your step.",
+      "category": {
+        "category_id": "women",
+        "name": "Women",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "fresh",
+        "name": "Fresh Fusion",
+        "description": "Contemporary styles and patterns",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/fresh-fusion.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-03-22",
+      "colors": ["yellow"],
+      "images": [
+        {
+          "color": "yellow",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/sunbeam-mules/sunbeam-mules-1.jpg"
+        },
+        {
+          "color": "yellow",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/sunbeam-mules/sunbeam-mules-2.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "sm-yellow-4",
+          "color": "yellow",
+          "size": 4,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 120,
+          "stock": 380
+        },
+        {
+          "sku": "sm-yellow-4.5",
+          "color": "yellow",
+          "size": 4.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 115,
+          "stock": 385
+        },
+        {
+          "sku": "sm-yellow-5",
+          "color": "yellow",
+          "size": 5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 110,
+          "stock": 390
+        },
+        {
+          "sku": "sm-yellow-5.5",
+          "color": "yellow",
+          "size": 5.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 105,
+          "stock": 395
+        },
+        {
+          "sku": "sm-yellow-6",
+          "color": "yellow",
+          "size": 6,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 100,
+          "stock": 400
+        },
+        {
+          "sku": "sm-yellow-6.5",
+          "color": "yellow",
+          "size": 6.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 95,
+          "stock": 405
+        },
+        {
+          "sku": "sm-yellow-7",
+          "color": "yellow",
+          "size": 7,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 90,
+          "stock": 410
+        },
+        {
+          "sku": "sm-yellow-7.5",
+          "color": "yellow",
+          "size": 7.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 85,
+          "stock": 415
+        },
+        {
+          "sku": "sm-yellow-8",
+          "color": "yellow",
+          "size": 8,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 80,
+          "stock": 420
+        },
+        {
+          "sku": "sm-yellow-8.5",
+          "color": "yellow",
+          "size": 8.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 75,
+          "stock": 425
+        },
+        {
+          "sku": "sm-yellow-9",
+          "color": "yellow",
+          "size": 9,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 70,
+          "stock": 430
+        },
+        {
+          "sku": "sm-yellow-9.5",
+          "color": "yellow",
+          "size": 9.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 65,
+          "stock": 435
+        },
+        {
+          "sku": "sm-yellow-10",
+          "color": "yellow",
+          "size": 10,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 60,
+          "stock": 440
+        },
+        {
+          "sku": "sm-yellow-10.5",
+          "color": "yellow",
+          "size": 10.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 55,
+          "stock": 445
+        },
+        {
+          "sku": "sm-yellow-11",
+          "color": "yellow",
+          "size": 11,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 50,
+          "stock": 450
+        },
+        {
+          "sku": "sm-yellow-11.5",
+          "color": "yellow",
+          "size": 11.5,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 45,
+          "stock": 455
+        },
+        {
+          "sku": "sm-yellow-12",
+          "color": "yellow",
+          "size": 12,
+          "list_price": 85,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 68,
+          "sold": 40,
+          "stock": 460
+        }
+      ],
+      "priceRange": {
+        "highest": 68,
+        "lowest": 68
+      },
+      "rating": 3.75,
+      "reviews": 4,
+      "sizes": [
+        4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12
+      ],
+      "sold": 1360
+    },
+    {
+      "product_id": "azure-attitude-shades",
+      "name": "Azure Attitude Shades",
+      "description": "Step out in style with our Azure Attitude Shades, featuring a bold blue tint and modern design. These sunglasses are not just an accessory but a statement of confidence.",
+      "category": {
+        "category_id": "men",
+        "name": "Men",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "urban",
+        "name": "Urban Oasis",
+        "description": "For the city dwellers",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/urban-oasis.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-03-21",
+      "colors": ["blue"],
+      "images": [
+        {
+          "color": "blue",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/azure-attitude-shades/azure-attitude-shades-1.jpg"
+        },
+        {
+          "color": "blue",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/azure-attitude-shades/azure-attitude-shades-2.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "aas-blue",
+          "color": "blue",
+          "size": null,
+          "list_price": 45,
+          "discount": null,
+          "discount_percentage": null,
+          "sale_price": 45,
+          "sold": 65,
+          "stock": 435
+        }
+      ],
+      "priceRange": {
+        "highest": 45,
+        "lowest": 45
+      },
+      "rating": 3.75,
+      "reviews": 4,
+      "sizes": [],
+      "sold": 65
+    },
+    {
+      "product_id": "voyager-hoodie",
+      "name": "Voyager Hoodie",
+      "description": "The Voyager Hoodie is for the explorer at heart. Its durable fabric and roomy pockets are perfect for those who are always searching for the next adventure.",
+      "category": {
+        "category_id": "unisex",
+        "name": "Unisex",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "urban",
+        "name": "Urban Oasis",
+        "description": "For the city dwellers",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/urban-oasis.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-03-20",
+      "colors": ["green", "brown"],
+      "images": [
+        {
+          "color": "green",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/voyager-hoodie/voyager-hoodie-1.jpg"
+        },
+        {
+          "color": "brown",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/voyager-hoodie/voyager-hoodie-1.jpg"
+        },
+        {
+          "color": "green",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/voyager-hoodie/voyager-hoodie-2.jpg"
+        },
+        {
+          "color": "green",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/voyager-hoodie/voyager-hoodie-3.jpg"
+        },
+        {
+          "color": "green",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/voyager-hoodie/voyager-hoodie-4.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "vh-green-xs",
+          "color": "green",
+          "size": "xs",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 85,
+          "stock": 415
+        },
+        {
+          "sku": "vh-green-sm",
+          "color": "green",
+          "size": "sm",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 80,
+          "stock": 420
+        },
+        {
+          "sku": "vh-green-md",
+          "color": "green",
+          "size": "md",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 75,
+          "stock": 425
+        },
+        {
+          "sku": "vh-green-lg",
+          "color": "green",
+          "size": "lg",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 70,
+          "stock": 430
+        },
+        {
+          "sku": "vh-green-xl",
+          "color": "green",
+          "size": "xl",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 65,
+          "stock": 435
+        },
+        {
+          "sku": "vh-brown-xs",
+          "color": "brown",
+          "size": "xs",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 85,
+          "stock": 415
+        },
+        {
+          "sku": "vh-brown-sm",
+          "color": "brown",
+          "size": "sm",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 80,
+          "stock": 420
+        },
+        {
+          "sku": "vh-brown-md",
+          "color": "brown",
+          "size": "md",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 75,
+          "stock": 425
+        },
+        {
+          "sku": "vh-brown-lg",
+          "color": "brown",
+          "size": "lg",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 70,
+          "stock": 430
+        },
+        {
+          "sku": "vh-brown-xl",
+          "color": "brown",
+          "size": "xl",
+          "list_price": 95,
+          "discount": null,
+          "discount_percentage": 20,
+          "sale_price": 76,
+          "sold": 65,
+          "stock": 435
+        }
+      ],
+      "priceRange": {
+        "highest": 76,
+        "lowest": 76
+      },
+      "rating": 4.06,
+      "reviews": 62,
+      "sizes": ["xs", "sm", "md", "lg", "xl"],
+      "sold": 750
+    },
+    {
+      "product_id": "la-baseball-hat",
+      "name": "LA Baseball Hat",
+      "description": "Shield your eyes and show your style with our LA Baseball Hat. It's not just a nod to the city of angels but a capstone for any casual outfit.",
+      "category": {
+        "category_id": "unisex",
+        "name": "Unisex",
+        "created_at": "2024-01-01"
+      },
+      "collection": {
+        "collection_id": "fresh",
+        "name": "Fresh Fusion",
+        "description": "Contemporary styles and patterns",
+        "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/collections/fresh-fusion.jpg",
+        "created_at": "2024-01-01"
+      },
+      "created_at": "2024-02-29",
+      "colors": ["black"],
+      "images": [
+        {
+          "color": "black",
+          "image_url": "https://vaqybtnqyonvlwtskzmv.supabase.co/storage/v1/object/public/e-commerce-track-images/la-baseball-hat/la-baseball-hat-1.jpg"
+        }
+      ],
+      "inventory": [
+        {
+          "sku": "lbh-black",
+          "color": "black",
+          "size": null,
+          "list_price": 20,
+          "discount": null,
+          "discount_percentage": null,
+          "sale_price": 20,
+          "sold": 65,
+          "stock": 435
+        }
+      ],
+      "priceRange": {
+        "highest": 20,
+        "lowest": 20
+      },
+      "rating": 4.5,
+      "reviews": 4,
+      "sizes": [],
+      "sold": 65
+    }
+  ],
+  "pagination": {
+    "has_more": false,
+    "page": 1,
+    "per_page": 9,
+    "total": 8
+  }
+}
