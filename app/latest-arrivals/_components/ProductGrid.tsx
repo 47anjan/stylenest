@@ -18,8 +18,8 @@ const ProductGrid = () => {
     </section>;
 
   return (
-    <section className="grid gap-8 justify-items-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {data?.products.map((product) => (
+    <section className="grid gap-8 justify-items-center  md:grid-cols-2 lg:grid-cols-4">
+      {data?.products.slice(0, 8).map((product) => (
         <ProductCard key={product.product_id} product={product} />
       ))}
     </section>
