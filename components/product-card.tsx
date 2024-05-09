@@ -43,14 +43,14 @@ const ProductCard = ({ product }: ProductProps) => {
   return (
     <article className="w-full ">
       {isLoading ? (
-        <div className="w-full h-96 md:h-80 bg-slate-400 rounded-lg"></div>
+        <div className="w-full h-96 md:h-[300px] bg-slate-400 rounded-lg"></div>
       ) : (
         <NextImage
           width={320}
           height={280}
           alt={product.name + " - " + currentColor}
           src={image!}
-          className="w-full h-96 md:h-80 object-cover rounded-lg"
+          className="w-full h-96 md:h-[300px] object-cover rounded-lg"
         ></NextImage>
       )}
 
