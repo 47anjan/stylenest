@@ -11,7 +11,7 @@ const ProductGrid = () => {
         .fill("*")
         .map((index, _) => (
           <div
-            className="w-full h-[300px] bg-slate-400 rounded-lg"
+            className="w-full h-[280px] bg-slate-400 rounded-lg"
             key={index}
           ></div>
         ))}

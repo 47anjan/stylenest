@@ -14,7 +14,7 @@ const LoadingPage = () => {
           .fill("*")
           .map((index, _) => (
             <div
-              className="w-full h-96 md:h-[300px] bg-slate-400 rounded-lg"
+              className="w-full h-96 md:h-[280px] bg-slate-400 rounded-lg"
               key={index}
             ></div>
           ))}
