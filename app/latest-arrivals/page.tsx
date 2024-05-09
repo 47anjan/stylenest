@@ -5,7 +5,7 @@ import ProductGrid from "./_components/ProductGrid";
 const LatestArrivalsPage = () => {
   return (
     <Container>
-      <header className="flex items-center justify-between mt-10 lg:mt-20 mb-5">
+      <header className="flex items-center justify-between my-10 lg:my-20 xl:my-32 ">
         <h2 className="text-2xl font-bold">Latest Arrivals</h2>
         <Link
           href="/latest-arrivals"
