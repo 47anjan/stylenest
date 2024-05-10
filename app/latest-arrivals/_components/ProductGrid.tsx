@@ -11,7 +11,7 @@ const ProductGrid = () => {
         .fill("*")
         .map((index, _) => (
           <div
-            className="w-full h-[315px] bg-slate-400 rounded-lg"
+            className="w-full h-[300px] bg-slate-400 rounded-lg"
             key={index}
           ></div>
         ))}
@@ -19,7 +19,7 @@ const ProductGrid = () => {
 
   return (
     <section className="grid gap-8 justify-items-center  md:grid-cols-2 lg:grid-cols-4">
-      {data?.products.slice(0, 8).map((product) => (
+      {data?.products.data.map((product) => (
         <ProductCard key={product.product_id} product={product} />
       ))}
     </section>

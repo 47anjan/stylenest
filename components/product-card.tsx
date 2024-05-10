@@ -1,5 +1,5 @@
-import useImages from "@/hooks/useImages";
-import useInventory from "@/hooks/useInventory";
+"use client";
+
 import { Image, Product } from "@/utils/types";
 import NextImage from "next/image";
 import { useEffect, useState } from "react";
@@ -10,29 +10,25 @@ interface ProductProps {
 }
 
 const ProductCard = ({ product }: ProductProps) => {
-  const { data } = useInventory(product.product_id);
-  const { data: imageData, isLoading } = useImages(product.product_id);
-  const colors = Array.from(
-    new Set(imageData?.images.map((item) => item.color))
-  );
+  const colors = product.colors;
   const [currentColor, setCurrentColor] = useState(colors[0]);
 
   useEffect(() => {
     setCurrentColor(colors[0]);
-  }, [imageData?.images]);
-
-  const inventory = data?.inventory;
-
-  if (!inventory) return null;
-
-  const hasDiscount =
-    inventory.discount_percentage || inventory.discount ? true : false;
+  }, [colors]);
 
   const images = colors.reduce((acc: Image[], item) => {
-    let img = imageData?.images.find((img) => img.color === item);
+    let img = product.images.find((img) => img.color === item);
     acc.push(img!);
     return acc;
   }, []);
+
+  const inventory = product.inventory.find(
+    (item) => item.color === currentColor
+  );
+
+  const hasDiscount =
+    inventory?.discount_percentage || inventory?.discount ? true : false;
 
   const image = images.find((item) => item.color === currentColor)?.image_url;
 
@@ -41,32 +37,27 @@ const ProductCard = ({ product }: ProductProps) => {
   };
 
   return (
-    <article className="w-full ">
-      {isLoading ? (
-        <div className="w-full h-96 md:h-[315px] bg-slate-400 rounded-lg"></div>
-      ) : (
-        <NextImage
-          width={320}
-          height={280}
-          alt={product.name + " - " + currentColor}
-          src={image!}
-          className="w-full h-96 md:h-[315px] object-cover rounded-lg"
-        ></NextImage>
-      )}
-
+    <article className="w-full pb-4 ">
+      <NextImage
+        width={320}
+        height={280}
+        alt={product.name + " - " + currentColor}
+        src={image!}
+        className="w-full h-96 md:h-[300px] object-cover rounded-lg"
+      ></NextImage>
       <div className="py-4">
         <p className="text-xs capitalize font-medium text-gray-600">
           {currentColor}
         </p>
         <h4 className="text-base font-medium line-clamp-2">{product.name}</h4>
         <div className="flex  gap-2 items-center py-3 text-gray-500 font-medium text-base">
-          {hasDiscount && <div>${inventory.sale_price}</div>}
+          {hasDiscount && <div>${inventory?.sale_price}</div>}
 
           <div className={twMerge(hasDiscount && "text-sm line-through")}>
-            ${inventory.list_price}
+            ${inventory?.list_price}
           </div>
         </div>
-        <div className="flex items-center flex-wrap gap-2">
+        <div className="flex mb-4 items-center flex-wrap gap-2">
           {colors.map((color) => (
             <button
               onClick={() => handleColorChange(color)}

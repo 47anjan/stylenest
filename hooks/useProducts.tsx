@@ -3,7 +3,9 @@ import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
 interface ResponseData {
-  products: Product[];
+  products: {
+    data: Product[];
+  };
 }
 
 const useProducts = () => {
