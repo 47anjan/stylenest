@@ -2,13 +2,27 @@
 
 import { MenuIcon, X } from "lucide-react";
 import Link from "next/link";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 
 const MobileMenu = () => {
   const [open, setOpen] = useState(false);
   const openMenu = () => setOpen(true);
-  const closeMenu = () => setOpen(false);
+  const closeMenu = useCallback(() => setOpen(false), []);
+
+  useEffect(() => {
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        closeMenu();
+      }
+    };
+
+    document.addEventListener("keydown", handleKey);
+
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+    };
+  }, [closeMenu]);
 
   return (
     <>
