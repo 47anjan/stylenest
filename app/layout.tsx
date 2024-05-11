@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 import QueryClientProvider from "./QueryClientProvider";
+import Header from "@/components/header";
 
 const noto = Noto_Sans({
   subsets: ["latin"],
@@ -22,7 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={noto.className}>
-        <QueryClientProvider>{children}</QueryClientProvider>
+        <QueryClientProvider>
+          <Header />
+          <div className="bg-white m-2 md:m-4 rounded-md overflow-hidden">
+            {children}
+          </div>
+        </QueryClientProvider>
       </body>
     </html>
   );

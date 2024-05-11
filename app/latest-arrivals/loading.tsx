@@ -19,7 +19,6 @@ const LoadingPage = () => {
             ></div>
           ))}
       </section>
-      ;
     </Container>
   );
 };
