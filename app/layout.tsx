@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={noto.className}>
         <QueryClientProvider>
           <Header />
-          <div className="bg-white m-2 md:m-4 rounded-md overflow-hidden">
+          <div className="bg-white mx-2 md:mx-4 rounded-md overflow-hidden">
             {children}
           </div>
         </QueryClientProvider>
