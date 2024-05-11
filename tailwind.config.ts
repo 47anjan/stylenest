@@ -11,6 +11,9 @@ const config: Config = {
       gridTemplateColumns: {
         fluid: "repeat(auto-fit, minmax(300px, 1fr))",
       },
+      screens: {
+        md: "769px",
+      },
     },
   },
   plugins: [],
