@@ -36,7 +36,7 @@ const MobileMenu = () => {
             <div className="md:hidden fixed text-black z-50 inset-0 p-4">
               <div className="backdrop absolute inset-0 z-40 bg-purple bg-opacity-50 backdrop-blur-[3px]" />
               <div className="drawer absolute inset-0 w-full bg-white z-50  flex flex-col ">
-                <header className="px-5   py-8   flex justify-between items-center">
+                <header className="px-4   py-8   flex justify-between items-center">
                   <Link href="/">
                     <Logo />
                   </Link>
@@ -44,8 +44,8 @@ const MobileMenu = () => {
                     <X />
                   </button>
                 </header>
-                <div className="flex-1 px-5 overflow-auto mt-8">
-                  <ul className="flex flex-col text-base  gap-6 ">
+                <div className="flex-1 px-7 overflow-auto">
+                  <ul className="flex flex-col text-sm  gap-6 ">
                     <li>
                       <Link href="/shop-all">Shop all</Link>
                     </li>
