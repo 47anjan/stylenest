@@ -1,5 +1,6 @@
 import { MenuIcon, ShoppingBag } from "lucide-react";
 import Link from "next/link";
+import MobileMenu from "./mobile-menu";
 
 const Header = () => {
   return (
@@ -24,9 +25,7 @@ const Header = () => {
               <ShoppingBag />
             </Link>
             <div className="md:hidden">
-              <button>
-                <MenuIcon />
-              </button>
+              <MobileMenu />
             </div>
           </div>
         </div>
