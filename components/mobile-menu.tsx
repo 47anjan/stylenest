@@ -35,8 +35,8 @@ const MobileMenu = () => {
             <div className="md:hidden fixed text-black z-50 inset-0 p-4">
               <div className="backdrop absolute inset-0 z-40 bg-purple bg-opacity-50 backdrop-blur-[3px]" />
               <div className="drawer absolute inset-0 w-full bg-white z-50  flex flex-col ">
-                <header className="mt-2 px-5   h-16    flex justify-between items-center">
-                  <Link className="text-2xl font-bold" href="/">
+                <header className="mt-2 px-5   h-14    flex justify-between items-center">
+                  <Link className="text-xl font-bold" href="/">
                     StyleNest
                   </Link>
                   <button onClick={closeMenu}>

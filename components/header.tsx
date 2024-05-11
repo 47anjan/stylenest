@@ -5,8 +5,8 @@ import MobileMenu from "./mobile-menu";
 const Header = () => {
   return (
     <header className="bg-[#f3f5f7]">
-      <nav className="max-w-7xl mt-2 md:mt-4 h-16 md:h-20 px-5 md:px-8 mx-auto flex justify-between items-center">
-        <Link className="mr-40 text-2xl font-bold" href="/">
+      <nav className="max-w-7xl mt-2 md:mt-4 h-14 md:h-16 px-5 md:px-8 mx-auto flex justify-between items-center">
+        <Link className="mr-24 text-xl font-bold" href="/">
           StyleNest
         </Link>
 
